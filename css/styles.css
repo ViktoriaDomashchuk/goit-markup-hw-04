@@ -114,10 +114,14 @@ padding: 32px 0;
 /*Main section*/
 .main.section{
     padding: 200px 0;
-}
-.main{
-    background-color: var(--dark-bg-cl);
-   
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1600px;
+    height: 600px;
+    background-image: url(../images/header/first-section.jpg);
+    background-repeat: no-repeat;
+background-position: center;
+background-color: var(--dark-bg-cl);
 }
 
 .main-title{
