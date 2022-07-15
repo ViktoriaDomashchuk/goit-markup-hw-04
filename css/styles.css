@@ -359,7 +359,9 @@ margin-bottom: 9px;
     font-style: normal;
 
 }
-
+.adress-links{
+    margin-right: 50px;
+}
 .footer-communication {
     font-size: 14px;
     line-height: 1.71em;
@@ -371,4 +373,16 @@ margin-bottom: 9px;
 .footer-communication:hover,
 .footer-communication:focus {
     color: var(--txt-color);
+}
+.icons-header{
+    font-weight: 700;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: var(--light-bg-cl);
+}
+.footer .container{
+    display: flex;
+    align-items: baseline;
 }
