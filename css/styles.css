@@ -118,10 +118,11 @@ padding: 32px 0;
     margin-right: auto;
     max-width: 1600px;
     height: 600px;
+    border: 1px solid #000000;
     background-image: url(../images/header/first-section.jpg);
     background-repeat: no-repeat;
-background-position: center;
-background-color: var(--dark-bg-cl);
+    background-position: center;
+    background-color: var(--dark-bg-cl);
 }
 
 .main-title{
