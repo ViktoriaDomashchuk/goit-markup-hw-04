@@ -222,7 +222,7 @@ padding-bottom: 94px;
     gap: 30px;
 }
 
-/*наша команда*/
+/*our team*/
 .team.section{
     background-color:  #F5F4FA;
     padding-top: 94px;
@@ -385,4 +385,23 @@ margin-bottom: 9px;
 .footer .container{
     display: flex;
     align-items: baseline;
+}
+
+/*Socials*/
+.socials.list{
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 10px;
+}
+.socials-link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    background-color: var(--light-bg-cl);
+    border-radius: 50%;
+    outline: 2px solid #2196F3;
+    outline-offset: -2px;
 }
