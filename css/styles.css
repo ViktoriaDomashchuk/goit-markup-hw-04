@@ -235,6 +235,10 @@ padding-bottom: 94px;
 }
 
 /*our team*/
+.team-card{
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+        border-radius: 0px 0px 4px 4px;
+}
 .team.section{
     background-color:  #F5F4FA;
     padding-top: 94px;
@@ -282,8 +286,13 @@ padding: 30px 10px;
     width: 170px;
     height: 92px;
     border: 1px solid #AFB1B8;
+    border-radius: 4px;
     background-color: var(--light-bg-cl);
     padding: 16px 32px;
+}
+.logo-icons:hover{
+    fill: #2196F3;
+    border-color: #2196F3;
 }
 
 
