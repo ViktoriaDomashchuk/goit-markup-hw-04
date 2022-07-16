@@ -157,8 +157,20 @@ padding: 32px 0;
 
 .btn:hover,
 .btn:focus{
-background-color:#188CE8;}
+background-color:#188CE8;
+}
 /*Features*/
+.features-icons{
+        display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 30px;
+            width: 270px;
+            height:120px ;
+            background-color: #F5F4FA;
+            padding: 25px 100px;
+            margin-bottom: 30px;
+}
 .features .container{
     display:flex ;
     align-items: center;
@@ -258,6 +270,22 @@ padding: 30px 10px;
         letter-spacing: 0.03em;
         color: var(--secondary-txt-cl);
 }
+/*Our clients*/
+.logotypes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;  
+}
+.logo-icons{
+    fill: #AFB1B8;
+    width: 170px;
+    height: 92px;
+    border: 1px solid #AFB1B8;
+    background-color: var(--light-bg-cl);
+    padding: 16px 32px;
+}
+
 
 /*PORTFOLIO*/
 .section{
