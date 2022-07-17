@@ -445,8 +445,30 @@ margin-top: 16px;
     fill: #AFB1B8;
 }
 .socials-link:hover{
-background-color: #2196F3;
+background-color: var(--accent-txt-cl);
 }
 .socials-link:hover .socials-icons {
+    fill: var(--light-bg-cl);
+}
+
+.footer-list{
+    display: flex;
+    gap: 10px;
+}
+
+.footer-item-icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    margin-top: 20px;         
+}
+.footer-icons{
     fill: #FFFFFF;
+}
+.footer-item-icons:hover{
+    background-color: var(--accent-txt-cl);
 }
