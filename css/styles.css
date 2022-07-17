@@ -96,7 +96,12 @@ padding: 32px 0;
 .contacts-nav{
     display: flex;
     margin-left: auto;
-    gap: 50px;
+    gap: 30px;
+}
+.contacts-nav-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .header-communication{
     font-weight: 500;
@@ -104,12 +109,22 @@ padding: 32px 0;
         line-height: height 1.33em;;
         letter-spacing: 0.02em;
         color: var(--secondary-txt-cl);
+        display: flex;
+        margin-left: 10px;
+}
+
+.contacts-icons{
+    fill: var(--secondary-txt-cl);
 }
 
 .header-communication:hover,
 .header-communication:focus{
     color: var(--accent-txt-cl);
 }
+ .contacts-icons:hover,
+ .contacts-icons:focus{
+fill: #2196F3;
+ }
 
 /*Main section*/
 .main.section{
