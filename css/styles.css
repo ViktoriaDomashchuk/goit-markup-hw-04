@@ -99,9 +99,8 @@ padding: 32px 0;
     gap: 30px;
 }
 .contacts-nav-item{
-        display: flex;
+        display: inline-flex;
         align-items: center;
-        justify-content: center;
 }
 .header-communication{
     font-weight: 500;
@@ -110,19 +109,18 @@ padding: 32px 0;
         letter-spacing: 0.02em;
         color: var(--secondary-txt-cl);
         display: flex;
-        padding-left: 10px;
+        align-items: center;
+        justify-content: center;
 }
 .header-communication:hover,
 .header-communication:focus{
     color: var(--accent-txt-cl);
 }
 .contacts-icons {
-    fill: #757575;
+    fill: currentColor;
+    margin-right: 10px;
 }
- .contacts-icons:hover,
- .contacts-icons:focus{
-fill: #2196F3;
- }
+
 
 /*Main section*/
 .main.section{
