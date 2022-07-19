@@ -378,8 +378,8 @@ padding: 30px 10px;
         color:var(--secondary-txt-cl);
 }
 
-.projects-card-link:hover,
-.projects-card-link:focus{
+.projects-card:hover,
+.projects-card:focus{
     box-shadow: 0px 4px 4px 0px #00000040;
 }
 
