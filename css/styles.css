@@ -105,7 +105,7 @@ padding: 32px 0;
 .header-communication{
     font-weight: 500;
         font-size: 14px;
-        line-height: height 1.33em;;
+        line-height: 1.33em;
         letter-spacing: 0.02em;
         color: var(--secondary-txt-cl);
         display: flex;
@@ -301,13 +301,14 @@ padding: 30px 10px;
 /*Our clients*/
 .logotypes-list{
     display:flex;
-    align-items: center;
-    justify-content: center;
     gap: 30px;
 }
 .logo-list .logo-link{
 display: inline-flex;
 flex-wrap: wrap;
+align-items: center;
+justify-content: center;
+
 
 }
 .logo-link{
@@ -317,14 +318,14 @@ flex-wrap: wrap;
     border: 1px solid #AFB1B8;
     border-radius: 4px;
     background-color: var(--light-bg-cl);
-    padding: 16px 32px;
+    /*padding: 16px 32px;*/
 }
 .logo-icons{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 106;
-    height: 60;
+    width: 106px;
+    height: 60px;
 }
 .logo-link:hover,
 .logo-link:focus{
@@ -404,8 +405,10 @@ flex-wrap: wrap;
         color:var(--secondary-txt-cl);
 }
 
-.projects-card:hover,
-.projects-card:focus{
+
+.projects-card-link:hover,
+.projects-card-link:focus{
+    display: block;
     box-shadow: 0px 1px 1px  rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16 );
 }
 
@@ -475,6 +478,7 @@ flex-wrap: wrap;
 .footer-list {
     display: flex;
     gap: 10px;
+    margin-top: 20px;
 }
 
 .footer-icons {
@@ -490,7 +494,7 @@ flex-wrap: wrap;
     height: 44px;
     background-color: rgba(255, 255, 255, 0.1);
     border-radius: 50%;
-margin-top: 20px;
+
 }
 .footer-soclink:hover,
 .footer-soclink:focus {
@@ -504,6 +508,7 @@ display: flex;
 align-items: center;
 justify-content: center;
 gap: 10px;
+margin-top: 16px;
 }
 .socials-link{
     display: flex;
@@ -513,7 +518,7 @@ gap: 10px;
     height: 44px;
     background-color: var(--light-bg-cl);
     border-radius: 50%;
-margin-top: 16px;
+
 }
 .socials-icons{
     fill: #AFB1B8;
